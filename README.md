@@ -18,4 +18,4 @@ pod_push(path: "#{podspecName}.podspec", repo: "rm-ios-spec", allow_warnings: tr
  message:git commit时写的日志，tag:版本号，specName:podspec文件名字
 
 # 执行以下命令，例如：
-fastlane ZTPodAutoUpgrageTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
+fastlane RMPodAutoUpgrageTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
