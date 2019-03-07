@@ -19,6 +19,7 @@ pod_push(path: "#{podspecName}.podspec", repo: "rm-ios-spec", allow_warnings: tr
 
 # 执行以下命令，例如：
 fastlane RMPodAutoUpgradeTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
-# 命令调用
+
+# 命令调用查看
 ![](https://img-blog.csdnimg.cn/20190307151939975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhY3JpZmljZTEyMw==,size_16,color_FFFFFF,t_70)
 
