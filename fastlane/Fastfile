@@ -1,5 +1,5 @@
 desc 'pod私有库自动化更新升级'
-lane :RMPodAutoUpgrageTool do |options|
+lane :RMPodAutoUpgradeTool do |options|
 
 #git commit时的message
 logMessage = options[:message]
