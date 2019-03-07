@@ -1,6 +1,21 @@
 # RMPodAutoUpgradeTool
-pod私有库自动更新升级
-
+pod私有库自动更新升级,开发人员修改私有模版库后不需要再去执行上传代码等任何操作，RMPodAutoUpgradeTool帮你一键上传私有库代码并更新索引库！
++------+--------------------+-------------+
+|            fastlane summary             |
++------+--------------------+-------------+
+| Step | Action             | Time (in s) |
++------+--------------------+-------------+
+| 1    | cocoapods          | 2           |
+| 2    | git_add            | 0           |
+| 3    | git_commit         | 0           |
+| 4    | push_to_git_remote | 3           |
+| 5    | git_tag_exists     | 0           |
+| 6    | remove_git_tag     | 0           |
+| 7    | add_git_tag        | 0           |
+| 8    | push_git_tags      | 0           |
+| 9    | pod_lib_lint       | 5           |
+| 10   | pod_push           | 7           |
++------+--------------------+-------------+
 ## 使用步骤
 
 1.需要安装Fastlane（Fastlane是一个ruby脚本集合，它可以按照我们指定的路线，在指定位置执行我们所要执行的操作。详细安装请百度，但网上试了一些不严谨，强烈建议自己按照官方文档来操作）
