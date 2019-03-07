@@ -5,8 +5,8 @@ pod私有库自动更新升级,开发人员修改私有模版库后不需要再�
 
 1.需要安装Fastlane（Fastlane是一个ruby脚本集合，它可以按照我们指定的路线，在指定位置执行我们所要执行的操作。详细安装请百度，但网上试了一些不严谨，强烈建议自己按照官方文档来操作）
 
-2. 将fastlane拷贝到你的本地仓库的根目录
-3. 打开Fastfile，找到pod_push并进行修改repo参数
+2. 将RMPodAutoUpgradeTool下的fastlane文件夹拷贝到你的本地仓库的根目录
+3. 打开Fastfile文件（可用Xcode打开），找到pod_push并进行修改repo参数
 
 repo：这个参数修改为你本地私有索引库文件的名称， 这个一般不会改变，所以可以写死不动
 # 例如：
