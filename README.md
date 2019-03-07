@@ -1,5 +1,5 @@
-# RMPodAutoUpgrageTool
-RMPodAutoUpgrageTool-pod私有库自动更新升级
+# RMPodAutoUpgradeTool
+pod私有库自动更新升级
 
 ## 使用步骤
 
@@ -18,4 +18,4 @@ pod_push(path: "#{podspecName}.podspec", repo: "rm-ios-spec", allow_warnings: tr
  message:git commit时写的日志，tag:版本号，specName:podspec文件名字
 
 # 执行以下命令，例如：
-fastlane RMPodAutoUpgrageTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
+fastlane RMPodAutoUpgradeTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
