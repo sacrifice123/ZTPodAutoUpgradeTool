@@ -17,7 +17,7 @@ pod_push(path: "#{podspecName}.podspec", repo: "rm-ios-spec", allow_warnings: tr
 # 注意几个参数
  message:git commit时写的日志，tag:版本号，specName:podspec文件名字
 
-# 执行以下命令，例如：
+# 敲黑板！！！通过执行以下命令来一键升级，例如：
 fastlane RMPodAutoUpgradeTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
 
 # 命令调用查看
