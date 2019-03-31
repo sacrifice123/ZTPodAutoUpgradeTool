@@ -18,7 +18,7 @@ pod_push(path: "#{podspecName}.podspec", repo: "zt-ios-spec", allow_warnings: tr
  message:git commit时写的日志，tag:版本号，specName:podspec文件名字
 
 # 敲黑板！！！通过执行以下命令来一键升级，例如：
-fastlane ZTPodAutoUpgradeTool message:pod私有库升级 tag:0.1.10 specName:RMLogin
+fastlane ZTPodAutoUpgradeTool message:pod私有库升级 tag:0.1.10 specName:XZLoginMoudle
 
 # 命令调用查看
 ![](https://img-blog.csdnimg.cn/20190307151939975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NhY3JpZmljZTEyMw==,size_16,color_FFFFFF,t_70)
