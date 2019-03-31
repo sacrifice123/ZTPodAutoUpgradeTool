@@ -1,5 +1,5 @@
 desc 'pod私有库自动化更新升级'
-lane :RMPodAutoUpgradeTool do |options|
+lane :ZTPodAutoUpgradeTool do |options|
 
 #git commit时的message
 logMessage = options[:message]
@@ -41,7 +41,7 @@ push_git_tags
 pod_lib_lint(allow_warnings: true, use_libraries: true)
 
 # 6、spec推到远端，这里podspec的名字需要由外界传入，repo可以直接写死
-pod_push(path: "#{podspecName}.podspec", repo: "rm-ios-spec", allow_warnings: true, use_libraries: true)
+pod_push(path: "#{podspecName}.podspec", repo: "zt-ios-spec", allow_warnings: true, use_libraries: true)
 
 
 end
