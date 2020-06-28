@@ -15,9 +15,9 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### RMPodAutoUpgrageTool
+### ZTPodAutoUpgrageTool
 ```
-fastlane RMPodAutoUpgrageTool
+fastlane ZTPodAutoUpgrageTool
 ```
 pod私有库自动化更新升级
 
